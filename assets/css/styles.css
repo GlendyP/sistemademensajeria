@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'raleway', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-columna {
+    flex-direction: column;
+}
+
+.flex-justificar-centro {
+    justify-content: center;
+}
+
+.flex-alinear-vertical {
+    align-items: center;
+}
+
+menu {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border: 1px solid #3a4259;
+    background: #32394d;
+    border-top: none;
+    width: 430px;
+    margin: 0;
+    padding: 0;
+}
+
+menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+menu li {
+    display: flex;
+    gap: 16px;
+    border: 1px solid #3a4259;
+    align-items: center;
+    height: 70px;
+    padding: 0 32px;
+}
+
+menu li img.globo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+menu li img.emoti {
+    width: 20px;
+    height: 20px;
+    margin-left: 6px;
+}
+
+menu li.chat-personal {
+    border-top: none;
+    justify-content: space-between;
+}
+
+menu li.chat-personal img.globo {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+menu li.chat-personal h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 12px;
+}
+
+menu li h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+menu li.chat-personal h6 {
+    font-size: 10px;
+    color: #ccc;
+    font-weight: normal;
+}
+
+menu li h6 {
+    font-size: 14px;
+    color: #9ea4b5;
+    font-weight: 500;
+}
+
+menu li i {
+    font-size: 20px;
+    color: #bbbbbb;
+}
+
+menu li .personal {
+    gap: 16px;
+}
+
+menu li .personal i {
+    color: #07e860;
+    font-size: 8px;
+    margin-right: 2px;
+}
+
+menu li .iconos {
+    gap: 16px;
+}
+
+menu li.nuevo-chat {
+    background: #3a4259;
+    padding: 20px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+menu li.nuevo-chat button {
+    background: #a491d3;
+    color: #fff;
+    height: 48px;
+    width: 200px;
+    border: none;
+    font-size: 16px;
+}
+
+#logo {
+    background: #3a4259;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo img {
+    width: 250px;
+}
+
+#logo h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 16px;
+    color: #fff;
+}
+
+#logo h4 {
+    font-weight: 500;
+    margin-top: 8px;
+    color: #9ea4b5;
+}
+
+#logo h4 span {
+    font-weight: bold;
+}
+
